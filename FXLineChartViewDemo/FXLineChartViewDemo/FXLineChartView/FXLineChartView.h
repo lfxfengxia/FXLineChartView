@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LineChartView : UIView
+@interface FXLineChartView : UIView
 
 @property (nonatomic, strong) NSArray<NSString *> *xDataArray;//x坐标 数据
 @property (nonatomic, strong) NSArray<NSString *> *yDataArray;//y 坐标数据

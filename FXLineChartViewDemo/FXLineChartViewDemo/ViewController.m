@@ -8,11 +8,11 @@
 
 #import "ViewController.h"
 
-#import "LineChartView.h"
+#import "FXLineChartView.h"
 
 @interface ViewController ()
 
-@property (nonatomic, strong) LineChartView *lineView;
+@property (nonatomic, strong) FXLineChartView *lineView;
 
 @end
 
@@ -24,7 +24,7 @@
     
     NSArray *xDataArray = @[@"周一",@"周二",@"周三",@"周四",@"周五",@"周六",@"周日"];
     NSArray *yDataArray = @[@"100",@"200",@"300",@"400",@"500",@"600",@"700",@"800"];
-    _lineView = [[LineChartView alloc]initWithFrame:CGRectMake(0, 150, self.view.frame.size.width, 240) withColumCount:(int)xDataArray.count rowCount:(int)yDataArray.count];
+    _lineView = [[FXLineChartView alloc]initWithFrame:CGRectMake(0, 150, self.view.frame.size.width, 240) withColumCount:(int)xDataArray.count rowCount:(int)yDataArray.count];
     _lineView.xDataArray = xDataArray;
     _lineView.yDataArray = yDataArray;
     _lineView.dataArray = @[@(69),@(376),@(500),@(789),@(456),@(650),@(310)];

@@ -6,9 +6,9 @@
 //  Copyright © 2016年 iOS. All rights reserved.
 //
 
-#import "LineChartView.h"
+#import "FXLineChartView.h"
 
-@interface LineChartView ()<CAAnimationDelegate>
+@interface FXLineChartView ()<CAAnimationDelegate>
 
 @property (nonatomic) int columCount;
 @property (nonatomic) int rowCount;
@@ -24,7 +24,7 @@
 
 @end
 
-@implementation LineChartView
+@implementation FXLineChartView
 
 static CGFloat bounceX = 30;
 static CGFloat bounceY = 20;

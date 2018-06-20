@@ -13,11 +13,11 @@
 		73734D6C1F1461F2005D54C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73734D6A1F1461F2005D54C0 /* Main.storyboard */; };
 		73734D6E1F1461F2005D54C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73734D6D1F1461F2005D54C0 /* Assets.xcassets */; };
 		73734D711F1461F2005D54C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73734D6F1F1461F2005D54C0 /* LaunchScreen.storyboard */; };
-		73734D7C1F146238005D54C0 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73734D7B1F146238005D54C0 /* LineChartView.m */; };
+		73734D7C1F146238005D54C0 /* FXLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73734D7B1F146238005D54C0 /* FXLineChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73734D5E1F1461F2005D54C0 /* LineChartViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChartViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73734D5E1F1461F2005D54C0 /* FXLineChartViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXLineChartViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73734D621F1461F2005D54C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73734D641F1461F2005D54C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73734D651F1461F2005D54C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +27,8 @@
 		73734D6D1F1461F2005D54C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73734D701F1461F2005D54C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73734D721F1461F2005D54C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73734D7A1F146238005D54C0 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
-		73734D7B1F146238005D54C0 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
+		73734D7A1F146238005D54C0 /* FXLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXLineChartView.h; sourceTree = "<group>"; };
+		73734D7B1F146238005D54C0 /* FXLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXLineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		73734D551F1461F2005D54C0 = {
 			isa = PBXGroup;
 			children = (
-				73734D601F1461F2005D54C0 /* LineChartViewDemo */,
+				73734D601F1461F2005D54C0 /* FXLineChartViewDemo */,
 				73734D5F1F1461F2005D54C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,15 +53,15 @@
 		73734D5F1F1461F2005D54C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73734D5E1F1461F2005D54C0 /* LineChartViewDemo.app */,
+				73734D5E1F1461F2005D54C0 /* FXLineChartViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73734D601F1461F2005D54C0 /* LineChartViewDemo */ = {
+		73734D601F1461F2005D54C0 /* FXLineChartViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				73734D791F146238005D54C0 /* LineChartView */,
+				73734D791F146238005D54C0 /* FXLineChartView */,
 				73734D641F1461F2005D54C0 /* AppDelegate.h */,
 				73734D651F1461F2005D54C0 /* AppDelegate.m */,
 				73734D671F1461F2005D54C0 /* ViewController.h */,
@@ -72,7 +72,7 @@
 				73734D721F1461F2005D54C0 /* Info.plist */,
 				73734D611F1461F2005D54C0 /* Supporting Files */,
 			);
-			path = LineChartViewDemo;
+			path = FXLineChartViewDemo;
 			sourceTree = "<group>";
 		};
 		73734D611F1461F2005D54C0 /* Supporting Files */ = {
@@ -83,21 +83,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		73734D791F146238005D54C0 /* LineChartView */ = {
+		73734D791F146238005D54C0 /* FXLineChartView */ = {
 			isa = PBXGroup;
 			children = (
-				73734D7A1F146238005D54C0 /* LineChartView.h */,
-				73734D7B1F146238005D54C0 /* LineChartView.m */,
+				73734D7A1F146238005D54C0 /* FXLineChartView.h */,
+				73734D7B1F146238005D54C0 /* FXLineChartView.m */,
 			);
-			path = LineChartView;
+			path = FXLineChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73734D5D1F1461F2005D54C0 /* LineChartViewDemo */ = {
+		73734D5D1F1461F2005D54C0 /* FXLineChartViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73734D751F1461F2005D54C0 /* Build configuration list for PBXNativeTarget "LineChartViewDemo" */;
+			buildConfigurationList = 73734D751F1461F2005D54C0 /* Build configuration list for PBXNativeTarget "FXLineChartViewDemo" */;
 			buildPhases = (
 				73734D5A1F1461F2005D54C0 /* Sources */,
 				73734D5B1F1461F2005D54C0 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = LineChartViewDemo;
+			name = FXLineChartViewDemo;
 			productName = LineChartViewDemo;
-			productReference = 73734D5E1F1461F2005D54C0 /* LineChartViewDemo.app */;
+			productReference = 73734D5E1F1461F2005D54C0 /* FXLineChartViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,12 +123,12 @@
 				TargetAttributes = {
 					73734D5D1F1461F2005D54C0 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6TN2Z9K2RK;
+						DevelopmentTeam = GUQQZ4F6LB;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 73734D591F1461F2005D54C0 /* Build configuration list for PBXProject "LineChartViewDemo" */;
+			buildConfigurationList = 73734D591F1461F2005D54C0 /* Build configuration list for PBXProject "FXLineChartViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73734D5D1F1461F2005D54C0 /* LineChartViewDemo */,
+				73734D5D1F1461F2005D54C0 /* FXLineChartViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -167,7 +167,7 @@
 				73734D691F1461F2005D54C0 /* ViewController.m in Sources */,
 				73734D661F1461F2005D54C0 /* AppDelegate.m in Sources */,
 				73734D631F1461F2005D54C0 /* main.m in Sources */,
-				73734D7C1F146238005D54C0 /* LineChartView.m in Sources */,
+				73734D7C1F146238005D54C0 /* FXLineChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +287,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6TN2Z9K2RK;
-				INFOPLIST_FILE = LineChartViewDemo/Info.plist;
+				DEVELOPMENT_TEAM = GUQQZ4F6LB;
+				INFOPLIST_FILE = FXLineChartViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lfx.LineChartViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,8 +299,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6TN2Z9K2RK;
-				INFOPLIST_FILE = LineChartViewDemo/Info.plist;
+				DEVELOPMENT_TEAM = GUQQZ4F6LB;
+				INFOPLIST_FILE = FXLineChartViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lfx.LineChartViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73734D591F1461F2005D54C0 /* Build configuration list for PBXProject "LineChartViewDemo" */ = {
+		73734D591F1461F2005D54C0 /* Build configuration list for PBXProject "FXLineChartViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73734D731F1461F2005D54C0 /* Debug */,
@@ -319,13 +319,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73734D751F1461F2005D54C0 /* Build configuration list for PBXNativeTarget "LineChartViewDemo" */ = {
+		73734D751F1461F2005D54C0 /* Build configuration list for PBXNativeTarget "FXLineChartViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73734D761F1461F2005D54C0 /* Debug */,
 				73734D771F1461F2005D54C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
